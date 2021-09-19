@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate area of a triangle</title>
+    
+    <link rel="stylesheet" href="style.css" />
+
+     <!-- FONT AWESOME -->
+     <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>fun with triangles📐</h1>
+      <nav>
+        <a href="isTriangle.html"> Is Triangle?</a>
+          <a href="index.html">Quiz</a>
+          <a href="hypo.html">Hypotenuse</a>
+          <a href="area.html"><strong>Area of Triangle</strong></a>
+      </nav>
+    </header>
+    <main class="calculate-area-main">
+      <h1>Calculate Area of a triangle</h1>
+      <form id="calculate-area">
+        <label class="input-label" for="first-side">
+          <p style="color: #FF2442;">Enter first side of a triangle</p>
+          <input class="input-text" required type="number" id="first-side" />
+        </label>
+        <label class="input-label" for="second-side">
+          <p style="color: #FF2442;">Enter second side of a triangle</p>
+          <input class="input-text" required type="number" id="second-side" />
+        </label>
+        <label class="input-label" for="third-side">
+          <p style="color: #FF2442;">Enter third side of a triangle</p>
+          <input class="input-text" required type="number" id="third-side" />
+        </label>
+        <button class="btn-check" type="submit">Calculate</button>
+      </form>
+      <p class="output calculate-area-output" id="output"></p>
+    </main>
+    <footer>
+        
+      <a href="https://github.com/kirti2602"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/kirti-sharma123/"><i class="fab fa-twitter"></i></a>
+      <a href="https://twitter.com/KirtiSh123"><i class="fab fa-linkedin"></i></a>
+      <p>© Kirti Sharma 2021</p> 
+    </footer>
+      
+    <script src="./js/area.js"></script>
+  </body>
+</html>
